@@ -2,7 +2,7 @@
 
 USER=$( id -u )
 
-VALIDAE_FUN(
+VALIDAE_FUN [
 if [ $1 -eq 0 ]
 then    
     echo " $2 is successfully installed "
@@ -10,7 +10,7 @@ else
     echo "$2 is not installed" 
     exit 1 
 fi 
-)
+]
 if [ $USER -eq 0  ]
 then
     echo " you are super user "

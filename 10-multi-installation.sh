@@ -21,12 +21,21 @@ else
 fi 
 
 
-dnf install nginx -y 
+dnf install git  -y 
 if [ $? -eq 0 ]
 then 
-    echo " installation of nginx is successfull "
+    echo " installation of git is successfull "
 else
     echo " not installed "
     exit 
 fi 
 
+
+dnf install jhjhj  -y 
+if [ $? -eq 0 ]
+then 
+    echo " installation of jhjhj is successfull "
+else
+    echo " not installed "
+    exit 
+fi 

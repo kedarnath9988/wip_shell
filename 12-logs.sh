@@ -23,9 +23,14 @@ else
 fi 
 
 
-dnf install nginx -y $>> $LOG_FILE
-VALIDAE_FUN $? nginx 
+dnf install nginx -y 
+
+VALIDAE_FUN $? nginx $>> $LOG_FILE
+
 dnf install git -y  $>> $LOG_FILE
+
 VALIDAE_FUN $? git 
+
 dnf install max -y  $>> $LOG_FILE
+
 VALIDAE_FUN $? max 

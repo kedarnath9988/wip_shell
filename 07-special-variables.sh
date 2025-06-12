@@ -8,4 +8,5 @@ echo " to know current user is" $USER
 
 echo "current work-dir" $PWD 
 
-echo "to host name is " $host
+echo "to host name is " $HOST
+

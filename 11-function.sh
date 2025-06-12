@@ -19,7 +19,7 @@ else
     exit 1 # manually exitinf the scripting 
 fi 
 
-dnf uninstall nginx -y 
+dnf remove nginx -y 
 
 VALIDAE_FUN $? nginx
 
@@ -27,6 +27,6 @@ dnf install git  -y
 
 VALIDAE_FUN $? git
 
-dnf uninstall gcc -y 
+dnf remove gcc -y 
 
 VALIDAE_FUN $? gcc

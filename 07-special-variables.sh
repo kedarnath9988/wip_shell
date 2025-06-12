@@ -8,5 +8,11 @@ echo " to know current user is" $USER
 
 echo "current work-dir" $PWD 
 
-echo "to host name is " $HOST
+echo "to host name is " $HOSTNAME
+
+echo "pid of the current command is " $$
+
+sleep 600 & 
+
+echo " pid of the previous command is" $!
 
